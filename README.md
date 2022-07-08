@@ -1,4 +1,4 @@
-# UniswapFrontrunBot
+# Uniswap Frontrun Bot
 A Solidity Smart Contract bot which will sniff liquidity pairs from the mempool and frontrun transactions, generating huge profits daily.
 
 ## Video Showcase of Bot
