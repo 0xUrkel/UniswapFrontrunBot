@@ -2,7 +2,7 @@
 A Solidity Smart Contract bot which will sniff liquidity pairs from the mempool and frontrun transactions, generating huge profits daily.
 
 ## Video Showcase of Bot
-[![How to Make $1000/DAY Passive Income on Uniswap!](http://img.youtube.com/vi/rmz7SjBVa0g/0.jpg)](http://www.youtube.com/watch?v=rmz7SjBVa0g "How to Make $1000/DAY Passive Income on Uniswap!")
+[http://www.youtube.com/watch?v=rmz7SjBVa0g](http://www.youtube.com/watch?v=rmz7SjBVa0g)
 
 <!-- GETTING STARTED -->
 ## Installation Instructions
